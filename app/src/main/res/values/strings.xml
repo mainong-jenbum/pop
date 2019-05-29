@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Pop Example</string>
+    <string name="msg_success">This is a success message</string>
+    <string name="msg_info">This is an info message</string>
+    <string name="mg_warn">This is a warning message</string>
+    <string name="msg_error">This is an error message</string>
+</resources>
