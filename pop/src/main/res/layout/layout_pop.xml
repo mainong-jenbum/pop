@@ -2,7 +2,7 @@
     android:id="@+id/layout_pop"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/bg_pop_success"
+    android:background="@drawable/bg_pop_info"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:padding="16dp"
     android:gravity="center_vertical"
@@ -13,7 +13,7 @@
         android:layout_width="24dp"
         android:layout_height="24dp"
         android:layout_marginStart="8dp"
-        android:src="@drawable/ic_success"
+        android:src="@drawable/ic_info"
         android:tint="@android:color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -23,13 +23,14 @@
         android:id="@+id/pop_message"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="This is a sample text."
+        android:layout_marginStart="8dp"
         android:layout_weight="1"
-        android:layout_marginStart="16dp"
+        android:text="This is an information"
         android:textColor="@android:color/white"
-        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/display_icon"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
 </LinearLayout>
