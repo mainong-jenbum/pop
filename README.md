@@ -1,6 +1,7 @@
 # Pop
 
-Displaying toasts in a new way.
+*Displaying toasts in a new way.*
+A simple library to display toast messages with custom background and icon.
 
 ## How to
 
@@ -34,7 +35,7 @@ dependencies {
 2. Pop.success(context, getString(R.string.msg_success), Toast.LENGTH_LONG));
 3. Pop.success(context, getString(R.string.msg_success), Toast.LENGTH_LONG, Gravity.TOP));
 ```
-[[https://github.com/mainong-jenbum/pop/tree/master/app/src/main/res/drawable/success_image.png|alt=octocat]]
+![Success Image](https://github.com/mainong-jenbum/pop/tree/master/app/src/main/res/drawable/success_image.png)
 
 * Information
 ```java
@@ -42,7 +43,7 @@ dependencies {
 2. Pop.info(context, getString(R.string.msg_info), Toast.LENGTH_LONG));
 3. Pop.info(context, getString(R.string.msg_info), Toast.LENGTH_LONG, Gravity.TOP));
 ```
-[[https://github.com/mainong-jenbum/pop/tree/master/app/src/main/res/drawable/info_image.png|alt=octocat]]
+![Info Image](https://github.com/mainong-jenbum/pop/tree/master/app/src/main/res/drawable/info_image.png)
 
 
 * Warning
@@ -51,7 +52,7 @@ dependencies {
 2. Pop.success(context, getString(R.string.msg_warn), Toast.LENGTH_LONG));
 3. Pop.success(context, getString(R.string.msg_warn), Toast.LENGTH_LONG, Gravity.TOP));
 ```
-[[https://github.com/mainong-jenbum/pop/tree/master/app/src/main/res/drawable/warning_image.png|alt=octocat]]
+![Warning Image](https://github.com/mainong-jenbum/pop/tree/master/app/src/main/res/drawable/warning_image.png)
 
 * Error
 ```java
@@ -59,4 +60,4 @@ dependencies {
 2. Pop.error(context, getString(R.string.msg_error), Toast.LENGTH_LONG));
 3. Pop.error(context, getString(R.string.msg_error), Toast.LENGTH_LONG, Gravity.TOP));
 ```
-[[https://github.com/mainong-jenbum/pop/tree/master/app/src/main/res/drawable/error_image.png|alt=octocat]]
+![Error Image](https://github.com/mainong-jenbum/pop/tree/master/app/src/main/res/drawable/error_image.png)
