@@ -3,7 +3,6 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:background="@drawable/bg_pop_info"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:padding="16dp"
     android:gravity="center_vertical"
     android:layout_gravity="center"
@@ -13,12 +12,8 @@
         android:id="@+id/pop_icon"
         android:layout_width="24dp"
         android:layout_height="24dp"
-        android:layout_marginStart="8dp"
         android:src="@drawable/ic_info"
-        android:tint="@android:color/white"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"/>
+        android:tint="@android:color/white"/>
 
     <TextView
         android:id="@+id/pop_message"
@@ -29,10 +24,6 @@
         android:layout_gravity="center"
         android:textColor="@android:color/white"
         android:textSize="18sp"
-        android:text="Your message here"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/display_icon"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="Your message here" />
 
 </LinearLayout>
