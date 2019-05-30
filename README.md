@@ -1,6 +1,6 @@
 # Pop
 
-*Displaying toasts in a new way.*
+*Displaytoasts in a new way.*\
 A simple library to display toast messages with custom background and icon.
 
 ## How to
@@ -22,7 +22,7 @@ allprojects {
 
 ```gradle
 dependencies {
-	implementation 'com.github.mainong-jenbum:pop:1.1.5'
+	implementation 'com.github.mainong-jenbum:pop:1.2.0'
 }
 
 ```
