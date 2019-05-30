@@ -1,6 +1,6 @@
 # Pop
 
-*Displaying toasts in a new way.*
+*Displaytoasts in a new way.*\
 A simple library to display toast messages with custom background and icon.
 
 ## How to
