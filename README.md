@@ -22,7 +22,7 @@ allprojects {
 
 ```gradle
 dependencies {
-	        implementation 'com.github.mainong-jenbum:pop:0.1.0'
+	implementation 'com.github.mainong-jenbum:pop:1.1.0'
 }
 
 ```
